@@ -24,7 +24,7 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.1</version>
                 <configuration>
-                    <url>http://192.168.99.100:8080/manager/text</url>
+                    <url>http://10.10.11.218:8090/manager/text</url>
                     <server>TomcatServer</server>
                     <path>/webtest</path>
                     <username>tomcat</username>

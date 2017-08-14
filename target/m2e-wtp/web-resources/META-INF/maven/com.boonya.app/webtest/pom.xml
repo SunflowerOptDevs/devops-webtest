@@ -16,7 +16,6 @@
 		</dependency>
 	</dependencies>
 
-    <!-- 构建部署到tomcat容器 -->
 	<build>
 	    <finalName>webtest</finalName>
 		<plugins>

@@ -27,10 +27,9 @@ public class Hello extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.getWriter().append("Served at: ").append(r   equest.getContextPath());
 		SimpleDateFormat sdf=new SimpleDateFormat("yyy-mm-dd HH:mm:ss");
-		String div="<div style='color:red'><H1>Hello World<H1></div>";
-		response.getWriter().write("Hello: current time is "+sdf.format(new Date())+"\n"+div);
+		response.getWriter().write("Hello: current time is "+sdf.format(new Date())+"\n");
 	}
 
 	/**

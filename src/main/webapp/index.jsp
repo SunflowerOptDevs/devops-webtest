@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>welcome to project:webtest</h1>
+<h1 style="color: red;">welcome to project:webtest</h1>
+
+<div>
+<span>CSDN:<a href="http://blog.csdn.net/boonya">http://blog.csdn.net/boonya </a></span>
+<br/>
+<span>博客园:<a href="http://www.cnblogs.com/boonya">http://www.cnblogs.com/boonya</a></span>
+
+</div>
 </body>
 </html>

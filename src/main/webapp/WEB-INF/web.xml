@@ -8,8 +8,8 @@
   </welcome-file-list>
   <servlet>
     <description></description>
-    <display-name>Hello</display-name>
-    <servlet-name>Hello</servlet-name>
+    <display-name>hello.html</display-name>
+    <servlet-name>hello.html</servlet-name>
     <servlet-class>com.boonya.app.Hello</servlet-class>
   </servlet>
   <servlet-mapping>

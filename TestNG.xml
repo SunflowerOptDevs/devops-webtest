@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="false">
-  <test name="Test">
-    <classes>
-      <class name="com.boonya.app.test.FirstTest"/>
-    </classes>
-  </test> <!-- Test -->
+	<test name="Test">
+		<classes>
+			<class name="com.boonya.app.test.FirstTest" />
+			<class name="com.boonya.app.test.SecondTest" />
+			<class name="com.boonya.app.test.ThirdTest" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

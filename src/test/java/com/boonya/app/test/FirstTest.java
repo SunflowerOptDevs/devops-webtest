@@ -11,7 +11,7 @@ public class FirstTest {
 	@Test
 	public void a() {
 		try {
-			Thread.sleep(new Random(1000).nextLong());
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -22,7 +22,7 @@ public class FirstTest {
 	@Test
 	public void b() {
 		try {
-			Thread.sleep(new Random(1000).nextLong());
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -33,7 +33,7 @@ public class FirstTest {
 	@Test
 	public void c() {
 		try {
-			Thread.sleep(new Random(1000).nextLong());
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -44,7 +44,7 @@ public class FirstTest {
 	@Test
 	public void d() {
 		try {
-			Thread.sleep(new Random(1000).nextLong());
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -55,7 +55,7 @@ public class FirstTest {
 	@Test
 	public void e() {
 		try {
-			Thread.sleep(new Random(1000).nextLong());
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -66,7 +66,7 @@ public class FirstTest {
 	@Test
 	public void f() {
 		try {
-			Thread.sleep(new Random(1000).nextLong());
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

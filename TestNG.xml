@@ -5,7 +5,6 @@
 			<class name="com.boonya.app.test.FirstTest" />
 			<class name="com.boonya.app.test.SecondTest" />
 			<class name="com.boonya.app.test.ThirdTest" />
-			<class name="com.boonya.app.test.SeleniumTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

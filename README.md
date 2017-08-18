@@ -2,5 +2,5 @@
 Project 'webtest' is a web project  for testing of jenkins.
 
 # Integration TestNG for Junit.
-Install TestNG plugin can 'Run as' TestNG.xml
+In eclipse or STS you can install TestNG plugin to 'Run as' TestNG.xml
 

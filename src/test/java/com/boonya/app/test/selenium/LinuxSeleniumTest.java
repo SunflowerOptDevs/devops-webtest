@@ -24,7 +24,7 @@ public class LinuxSeleniumTest {
 	public void firefox() {
 		WebDriver driver;
 		// Install firefox in centos: yum install -y firefox
-		System.setProperty("webdriver.firefox.bin", "/usr/bin/firefox");
+		System.setProperty("webdriver.firefox.bin", "/usr/lib64/firefox/firefox-bin");
 		// Incorrect way
 		//System.setProperty("webdriver.gecko.driver", "geckodriver/linux/geckodriver");
 		driver = new FirefoxDriver();

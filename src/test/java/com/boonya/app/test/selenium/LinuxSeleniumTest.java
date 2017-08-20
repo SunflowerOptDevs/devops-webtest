@@ -23,7 +23,8 @@ public class LinuxSeleniumTest {
 	@Test
 	public void firefox() {
 		WebDriver driver;
-		System.setProperty("webdriver.gecko.driver", "geckodriver/linux/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "/usr/local/devops/selenium/geckodriver");
+		//System.setProperty("webdriver.gecko.driver", "geckodriver/linux/geckodriver");
 		driver = new FirefoxDriver();
 		driver.get("http://www.baidu.com");
 		System.out.println(driver.getCurrentUrl());

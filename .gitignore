@@ -22,9 +22,9 @@
 hs_err_pid*
 
 
-/target
+target/
 
 *.classpath
-/.setting
+.setting/
 *.project
-/test-output
+test-output/

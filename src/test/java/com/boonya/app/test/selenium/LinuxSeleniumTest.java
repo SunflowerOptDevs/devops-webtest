@@ -23,7 +23,10 @@ public class LinuxSeleniumTest {
 	@Test
 	public void firefox() {
 		WebDriver driver;
-		System.setProperty("webdriver.gecko.driver", "geckodriver/linux/geckodriver");
+		// Install firefox in centos: yum install -y firefox
+		System.setProperty("webdriver.firefox.bin", "/usr/bin/firefox");
+		// Incorrect way
+		//System.setProperty("webdriver.gecko.driver", "geckodriver/linux/geckodriver");
 		driver = new FirefoxDriver();
 		driver.get("http://www.baidu.com");
 		System.out.println(driver.getCurrentUrl());

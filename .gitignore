@@ -28,3 +28,4 @@ target/
 .setting/
 *.project
 test-output/
+!/tools/

@@ -9,4 +9,6 @@ Selenium Tutorial: http://www.yiibai.com/selenium/
 
 Selenium for python example: http://www.cnblogs.com/kgdxpr/p/6165100.html
 
+Official Website：http://seleniumhq.org/
 
+Help docs：http://seleniumhq.org/docs/

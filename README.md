@@ -20,6 +20,29 @@ Selenium for python example: http://www.cnblogs.com/kgdxpr/p/6165100.html
 
 # Integrating JMeter performance test.
 
+In this project  maven-antrun-plugin is 1.4,if you want use more lately version you can do this:
+
+pom.xml
+```
+              <plugin>
+                    <groupId>com.lazerycode.jmeter</groupId>
+                    <artifactId>jmeter-maven-plugin</artifactId>
+                    <version>2.0.3</version>
+                    <executions>
+                        <execution>
+                            <id>jmeter-tests</id>
+                            <goals>
+                                <goal>jmeter</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <jmeterExtensions>
+                            <artifact>com.demo.jmeter:demo:1.0.0</artifact>
+                        </jmeterExtensions>
+                    </configuration>
+                </plugin>
+```
 You can based on Ant to  build run jmeter test plans.
 
 build.xml

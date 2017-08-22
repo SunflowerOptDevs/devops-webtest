@@ -1,9 +1,25 @@
 # Project:webtest
+
 Project 'webtest' is a web project  for testing of jenkins.
 
 # Integrating TestNG for Junit.
-In eclipse or STS you can install TestNG plugin to 'Run as' TestNG.xml
 
+In eclipse or STS you can install TestNG plugin to 'Run as' TestNG.xml . To edit TestNG.xml and set the classes which you expected to test.
+
+TestNG.xml
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<classes>
+			<class name="com.boonya.app.test.FirstTest" />
+			<class name="com.boonya.app.test.SecondTest" />
+			<class name="com.boonya.app.test.ThirdTest" />
+			<!--<class name="com.boonya.app.test.selenium.LinuxSeleniumTest" />-->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+```
 # Learning Selenium
 
 Selenium support languages:C#，Java，Perl，PHP，Python，Ruby 

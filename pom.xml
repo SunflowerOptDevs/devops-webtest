@@ -61,24 +61,28 @@
 				</configuration>
 			</plugin>
 			<!-- jmeter -->
-			 <plugin>
+			<plugin>
 		        <artifactId>maven-antrun-plugin</artifactId>
 		        <version>1.8</version>
 		        <executions>
 		          <execution>
-		            <id>run-jmeter</id>
-		            <phase>integration-test</phase>
+		            <phase>integration-run <!-- a lifecycle phase --> </phase>
 		            <configuration>
-		              <tasks>
-		                <target>build.xml</target>
-		              </tasks>
+		              <target>
+		              jmeter
+		                <!--
+		                  Place any Ant task here. You can add anything
+		                  you can add between <target> and </target> in a
+		                  build.xml.
+		                -->
+		              </target>
 		            </configuration>
 		            <goals>
 		              <goal>run</goal>
 		            </goals>
 		          </execution>
 		        </executions>
-		     </plugin>
+		   </plugin>
 		</plugins>
 	</build>
 

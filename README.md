@@ -84,3 +84,20 @@ build.xml
 
 </project>
 ```
+Besides, you can send an email(from:http://www.cnblogs.com/MasterMonkInTemple/p/3375761.html):
+
+```
+<target name="sendEmail">
+        <mail mailhost="stmp.qq.com" mailport="25" from="12345678@qq.com" user="12345678" password="*****" subject="SmokeTest Report!" messagefile="${JMeter.home}/extras/AutoTestReport${time}_failure.html" messagemimetype="text/html" tolist="${to_me_only}">
+            <fileset dir="${jmeter.home}/extras/">
+                <!-- <include name="AutoTestReport${time}.html"/> -->
+                <include name="expand.png"/>
+            </fileset>
+            <!-- <message>This email was sent automatically by ANT. <br />
+            Please check the automation test report by the link below.  <br />
+            If there are any questions, please contact with mim Zhang. Thank you! <br /><br />
+            http://SZCOMPUTER/AutoTestReport${time}.html
+            </message> -->
+        </mail>
+</target>
+```

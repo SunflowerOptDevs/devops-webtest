@@ -87,13 +87,13 @@
                     <!-- 注意imageName一定要是符合正则[a-z0-9-_.]的，否则构建不会成功 -->
 					<!-- 详见：https://github.com/spotify/docker-maven-plugin    Invalid repository name ... only [a-z0-9-_.] are allowed-->
 					<imageName>devops-webtest</imageName>
-					<baseImage>java</baseImage>
-					<entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
+					<!-- 指定Dockerfile所在的路径 -->
+					<dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
 					<resources>
 						<resource>
 							<targetPath>/</targetPath>
 							<directory>${project.build.directory}</directory>
-							<include>${project.build.finalName}.jar</include>
+							<include>${project.build.finalName}.war</include>
 						</resource>
 					</resources>
 				</configuration>

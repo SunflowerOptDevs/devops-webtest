@@ -23,7 +23,7 @@
     <servlet-class>com.boonya.app.World</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>world.html</servlet-name>
+    <servlet-name>World.html</servlet-name>
     <url-pattern>/world.html</url-pattern>
   </servlet-mapping>
 </web-app>
